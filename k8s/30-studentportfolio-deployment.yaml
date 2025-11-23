@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: studentportfolio
-           image: ghcr.io/rajveerkaur3/assignment-6-comp-4001-studentportfolio:latest
+          image: ghcr.io/rajveerkaur3/assignment-6-comp-4001-studentportfolio:latest
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
